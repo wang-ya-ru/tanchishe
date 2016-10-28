@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    background:url("../img/bei.gif");
+	background-size:cover;
+}
+/*.bgbox{*/
+    /*position: relative;*/
+    /*background:#a50000;*/
+    /*!*background: cover;*!*/
+    /*left:0;*/
+    /*right:0;*/
+    /*top:0;*/
+    /*bottom:0;*/
+    /*margin:auto;*/
+/*}*/
+.bg{
+	width:600px;
+	height:600px;
+	position: fixed;
+	left:0;
+	right: 0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	background-image: url("../img/she.gif");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: 600px;
+    /*background: cover;*/
+}
+.sence{
+	width:600px;
+	height:600px;
+	position: fixed;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	background: rgba(200,100,0,0.5);
+}
+.she{
+    width: 20px;
+    height:20px;
+    float: left;
+	border-radius: 50%;
+}
+.shet{
+    width: 20px;
+    height:20px;
+    background-image:url("../img/beij.jpg");
+    background-size:cover;
+    /*background:cover;*/
+}
+.shiwu{
+    width: 20px;
+    height:20px;
+    background-image:url("../img/beij.jpg");
+    background-size:cover;
+    /*background:cover;*/
+}
+.start{
+	position: absolute;
+	top:0;
+	bottom:0;
+	right: 0;
+	left:0;
+	margin:auto;
+	margin-right:200px;
+	margin-top:200px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	color: #ff2d74;
+	background: url("../img/beij.jpg");
+	background-size: cover;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
+.replay{
+	position: absolute;
+	top:0;
+	bottom:0;
+	right: 0;
+	left:0;
+	margin:auto;
+	margin-right:200px;
+	margin-bottom:200px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	color: #ff2d74;
+	background: url("../img/beij.jpg");
+	background-size: cover;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+}
